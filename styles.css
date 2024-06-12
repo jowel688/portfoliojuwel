@@ -1,0 +1,51 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background: #1a202c; /* Darker gray for header */
+    color: #f7fafc; /* Lighter text color */
+}
+
+header nav a {
+    color: #f7fafc;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #63b3ed; /* Light blue for hover effect */
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    padding: 2rem 1rem;
+}
+
+footer {
+    background: #1a202c; /* Darker gray for footer */
+    color: #f7fafc;
+}
+
+footer a {
+    color: #63b3ed; /* Light blue for links */
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #3182ce; /* Darker blue for hover effect */
+}
+
+footer .container {
+    padding: 1rem;
+}
+
+footer .container div {
+    margin-bottom: 1rem;
+}
+
+footer .text-center {
+    margin-top: 1rem;
+}
